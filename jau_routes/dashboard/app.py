@@ -41,7 +41,7 @@ st.sidebar.header("Parâmetros do Modelo")
 
 fuel_price = st.sidebar.number_input("Preço Combustível (R$/L)", 4.0, 10.0, 6.5)
 driver_wage = st.sidebar.number_input("Preço do Motorista (R$/h)", 10.0, 100.0, 30.0)
-v_urban = st.sidebar.number_input("Velocidade média urbana (km/h)", 20.0, 60.0, 40.0)
+v_urban = st.sidebar.number_input("Velocidade média urbana (km/h)", 10.0, 60.0, 40.0)
 
 tau_min = st.sidebar.number_input("Horário mínimo de partida", 4.0, 18.0, 6.0)
 tau_max = st.sidebar.number_input("Horário máximo de partida", 4.0, 18.0, 11.0)
